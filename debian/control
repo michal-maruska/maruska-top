@@ -13,16 +13,18 @@ Description: This should be enough to make maruska happy with the desktop.
  A container package -- pulling in dependencies which I am accustomed to.
 
 
+
 Package: maruska-server-top
 Architecture: all
 Depends: maruska-base-top, libapache2-mod-fastcgi | libapache2-mod-fcgid, kahua-apps
 Recommends:
-Description: This should be enough to make maruska happy with the desktop.
+Description: This should be enough to make maruska happy with the Server.
  A container package -- pulling in dependencies which I am accustomed to.
+
 
 Package: maruska-pg-top
 Architecture: all
-Depends: maruska-base-top, pg-natural-sex, char-in-set, pg-human, thumbsize, sadd
+Depends: pg-natural-sex, char-in-set, pg-human, thumbsize, sadd
 Recommends:
 Description: This should be enough to make maruska PG databse work.
  A container package -- pulling in dependencies for database work.
