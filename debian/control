@@ -1,0 +1,31 @@
+Source: maruska-top
+Section: shells
+Priority: extra
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Build-Depends: cdbs, debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: maruska-base-top
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, maruska-preference, mmc-emacs, mmc-emacs-config,mmc-sawfish, mmc-zsh,gauche-eog, elinks, xplugin, fork-plugin,gauche-xlib, lsof,xdelta,human,mempeak,cowdancer,rlwrap,pbuilder,rxvt-beta
+Recommends:
+Description: This should be enough to make maruska happy with the desktop.
+ A container package -- pulling in dependencies which I am accustomed to.
+
+
+Package: maruska-server-top
+Architecture: all
+Depends: maruska-base-top, libapache2-mod-fastcgi | libapache2-mod-fcgid, kahua-apps
+Recommends:
+Description: This should be enough to make maruska happy with the desktop.
+ A container package -- pulling in dependencies which I am accustomed to.
+
+
+
+Package: maruska-pg-top
+Architecture: all
+Depends: maruska-base-top, natural_sex, char_in_set, pg-human, thumbsize, sadd
+Recommends:
+Description: This should be enough to make maruska PG databse work.
+ A container package -- pulling in dependencies for database work.
+
