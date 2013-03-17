@@ -20,11 +20,9 @@ Recommends:
 Description: This should be enough to make maruska happy with the desktop.
  A container package -- pulling in dependencies which I am accustomed to.
 
-
-
 Package: maruska-pg-top
 Architecture: all
-Depends: maruska-base-top, natural_sex, char_in_set, pg-human, thumbsize, sadd
+Depends: maruska-base-top, pg-natural-sex, char-in-set, pg-human, thumbsize, sadd
 Recommends:
 Description: This should be enough to make maruska PG databse work.
  A container package -- pulling in dependencies for database work.
