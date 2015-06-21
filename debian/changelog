@@ -1,3 +1,10 @@
+maruska-top (1.3) release; urgency=medium
+
+  * base-top: add  dircolors
+  * new configs: maruska-desktop-top maruska-developer-top maruska-mail-server
+
+ -- Michal Maruska <mmaruska@gmail.com>  Sun, 21 Jun 2015 22:10:18 +0200
+
 maruska-top (1.2) release; urgency=low
 
   * pg-top should not install top for Desktop
