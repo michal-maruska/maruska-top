@@ -29,3 +29,18 @@ Recommends:
 Description: This should be enough to make maruska PG databse work.
  A container package -- pulling in dependencies for database work.
 
+
+Package: maruska-desktop-top
+Architecture: all
+Depends: sispmctl, unclutter, powertop, veromix, trayer, lshw
+Description: Things I need on GUI workstation.
+
+Package: maruska-developer-top
+Architecture: all
+Depends: maruska-desktop-top, mmc-emacs-devel, goodies-el
+Description: Thinks I use for development/work.
+
+Package: maruska-mail-server
+Architecture: all
+Depends: postfix, fetchmail, maildrop, mutt, courier-imap, bsd-mailx
+Description: Things I use for processing email.
