@@ -1,18 +1,4 @@
 #!/usr/bin/make -f
 
-include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/class/makefile.mk
-
-
-clean::
-	-$(MAKE) clean
-
-install/maruska-base-top::
-	$(MAKE) install DESTDIR=$(DEB_DESTDIR)
-
-
-
-install/maruska-server-top::
-	$(MAKE) install DESTDIR=$(DEB_DESTDIR)
-
-
+%:
+	dh $@
