@@ -32,7 +32,7 @@ Description: This should be enough to make maruska PG databse work.
 
 Package: maruska-desktop-top
 Architecture: all
-Depends: sispmctl, unclutter, powertop, veromix, trayer, lshw
+Depends: sispmctl, unclutter, powertop, veromix, trayer, lshw, maruska-base-top
 Description: Things I need on GUI workstation.
 
 Package: maruska-developer-top
