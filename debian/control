@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: maruska-base-top
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, maruska-preference, mmc-emacs, dircolors, mmc-emacs-config,mmc-sawfish, mmc-zsh,gauche-eog, elinks, xplugin, fork-plugin,gauche-xlib, lsof,xdelta,human,mempeak,cowdancer,rlwrap,pbuilder,rxvt-beta,lightdm
+Depends: ${shlibs:Depends}, ${misc:Depends}, maruska-preference, maruska-misc, mmc-emacs, dircolors, mmc-emacs-config,mmc-sawfish, mmc-zsh,gauche-eog, elinks, xplugin, fork-plugin,gauche-xlib, lsof,xdelta,human,mempeak,cowdancer,rlwrap,pbuilder,rxvt-beta,lightdm,chromium
 Recommends:
 Description: This should be enough to make maruska happy with the desktop.
  A container package -- pulling in dependencies which I am accustomed to.
@@ -32,7 +32,7 @@ Description: This should be enough to make maruska PG databse work.
 
 Package: maruska-desktop-top
 Architecture: all
-Depends: sispmctl, unclutter, powertop, veromix, trayer, lshw, maruska-base-top
+Depends: sispmctl, unclutter, powertop, veromix, trayer, lshw, maruska-base-top,x11-xserver-utils,xinput,gconf2,gnome-panel
 Description: Things I need on GUI workstation.
 
 Package: maruska-developer-top
