@@ -1,3 +1,9 @@
+maruska-top (1.5) release; urgency=medium
+
+  * maruska-misc keymap !!
+
+ -- Michal Maruska <mmaruska@gmail.com>  Mon, 24 Aug 2015 22:58:50 +0200
+
 maruska-top (1.4.1) release; urgency=medium
 
   * login dm
