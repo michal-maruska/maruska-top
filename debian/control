@@ -32,7 +32,7 @@ Description: This should be enough to make maruska PG databse work.
 
 Package: maruska-desktop-top
 Architecture: all
-Depends: sispmctl, unclutter, powertop, trayer, lshw, maruska-base-top,x11-xserver-utils,xinput,gconf2,gnome-panel,claws-mail-fancy-plugin,claws-mail-newmail-plugin,claws-mail-multi-notifier,nautilus
+Depends: sispmctl, unclutter, powertop, trayer, lshw, maruska-base-top,x11-xserver-utils,xinput,gconf2,gnome-panel,claws-mail-fancy-plugin,claws-mail-newmail-plugin,claws-mail-multi-notifier,nautilus,nm-applet
 Description: Things I need on GUI workstation.
 
 Package: maruska-developer-top
