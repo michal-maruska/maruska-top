@@ -16,7 +16,7 @@ Description: This should be enough to make maruska happy with the desktop.
 
 Package: maruska-server-top
 Architecture: all
-Depends: maruska-base-top, libapache2-mod-fastcgi | libapache2-mod-fcgid, kahua-apps
+Depends: maruska-base-top, libapache2-mod-fastcgi | libapache2-mod-fcgid, kahua-apps, postgresql-9.5, libpq5
 Recommends:
 Description: This should be enough to make maruska happy with the Server.
  A container package -- pulling in dependencies which I am accustomed to.
