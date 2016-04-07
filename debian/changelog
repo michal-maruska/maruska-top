@@ -1,3 +1,9 @@
+maruska-top (1.8) release; urgency=medium
+
+  * nm-applet -> gnome
+
+ -- Michal Maruska <mmaruska@gmail.com>  Thu, 07 Apr 2016 02:14:58 +0200
+
 maruska-top (1.7) release; urgency=medium
 
   * add emacs-snapshot-xlib
