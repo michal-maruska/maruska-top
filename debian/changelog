@@ -1,3 +1,11 @@
+maruska-top (1.9) release; urgency=medium
+
+  * bump compat to 9
+  * rename the Top packages as maruska-top-X
+  * claws-mail-fancy-plugin is not in SID
+
+ -- Michal Maruska <mmaruska@gmail.com>  Tue, 10 Sep 2019 23:03:51 +0200
+
 maruska-top (1.8) release; urgency=medium
 
   * nm-applet -> gnome
