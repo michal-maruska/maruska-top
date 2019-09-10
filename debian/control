@@ -5,7 +5,7 @@ Maintainer: Michal Maruska <mmaruska@gmail.com>
 Build-Depends: debhelper(>=7)
 Standards-Version: 3.7.2
 
-Package: maruska-base-top
+Package: maruska-top-base
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, maruska-preference, maruska-misc, mmc-emacs, dircolors, mmc-emacs-config,mmc-sawfish, mmc-zsh,gauche-eog, elinks, xplugin, fork-plugin,gauche-xlib, lsof,xdelta,human,mempeak,cowdancer,rlwrap,pbuilder,rxvt-beta,lightdm,chromium,git-core, gitk, devscripts, emacs-snapshot-xlib
 Recommends:
@@ -14,15 +14,15 @@ Description: This should be enough to make maruska happy with the desktop.
 
 
 
-Package: maruska-server-top
+Package: maruska-top-server
 Architecture: all
-Depends: maruska-base-top, libapache2-mod-fastcgi | libapache2-mod-fcgid, kahua-apps, postgresql-9.5, libpq5
+Depends: maruska-top-base, libapache2-mod-fastcgi | libapache2-mod-fcgid, kahua-apps, postgresql-9.5, libpq5
 Recommends:
 Description: This should be enough to make maruska happy with the Server.
  A container package -- pulling in dependencies which I am accustomed to.
 
 
-Package: maruska-pg-top
+Package: maruska-top-pg
 Architecture: all
 Depends: pg-natural-sex, char-in-set, pg-human, thumbsize, sadd
 Recommends:
@@ -30,17 +30,17 @@ Description: This should be enough to make maruska PG databse work.
  A container package -- pulling in dependencies for database work.
 
 
-Package: maruska-desktop-top
+Package: maruska-top-desktop
 Architecture: all
-Depends: sispmctl, unclutter, powertop, trayer, lshw, maruska-base-top,x11-xserver-utils,xinput,gconf2,gnome-panel,claws-mail-fancy-plugin,claws-mail-newmail-plugin,claws-mail-multi-notifier,nautilus,network-manager-gnome
+Depends: sispmctl, unclutter, powertop, trayer, lshw, maruska-top-base,x11-xserver-utils,xinput,gconf2,gnome-panel,claws-mail-fancy-plugin,claws-mail-newmail-plugin,claws-mail-multi-notifier,nautilus,network-manager-gnome
 Description: Things I need on GUI workstation.
 
-Package: maruska-developer-top
+Package: maruska-top-developer
 Architecture: all
-Depends: maruska-desktop-top, mmc-emacs-devel, emacs-goodies-el
-Description: Thinks I use for development/work.
+Depends: maruska-top-desktop, mmc-emacs-devel, emacs-goodies-el, debian-el
+Description: Things I use for development/work.
 
-Package: maruska-mail-server
+Package: maruska-top-mail-server
 Architecture: all
 Depends: postfix, fetchmail, maildrop, mutt, courier-imap, bsd-mailx
 Description: Things I use for processing email.
