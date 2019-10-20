@@ -1,3 +1,11 @@
+maruska-top (1.11) release; urgency=medium
+
+  * always install xorg-evdev with the server.
+  * desktop: install ntp,google-chrome-stable
+  * maruska-top-debian: new to be able to build debian pkgs.
+
+ -- Michal Maruska <mmaruska@gmail.com>  Sun, 20 Oct 2019 14:30:03 +0200
+
 maruska-top (1.10) release; urgency=medium
 
   * update forkto, drop gauche-*, fight exim4-base
