@@ -38,7 +38,7 @@ Description: Things I need on GUI workstation.
 
 Package: maruska-top-developer
 Architecture: all
-Depends: maruska-top-desktop, mmc-emacs-devel, emacs-goodies-el, debian-el
+Depends: maruska-top-desktop, mmc-emacs-devel, emacs-goodies-el, debian-el,magit
 Description: Things I use for development/work.
 
 Package: maruska-top-mail-server
