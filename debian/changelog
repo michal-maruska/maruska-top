@@ -1,3 +1,9 @@
+maruska-top (1.12) release; urgency=medium
+
+  * Add magit to maruska-top-developer
+
+ -- Michal Maruska <mmaruska@gmail.com>  Sun, 20 Oct 2019 21:37:36 +0200
+
 maruska-top (1.11) release; urgency=medium
 
   * always install xorg-evdev with the server.
