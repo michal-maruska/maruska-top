@@ -49,5 +49,5 @@ Description: Things I use for processing email.
 
 Package: maruska-top-debian
 Architecture: all
-Depends: equivs, packaging-dev
+Depends: equivs, packaging-dev,dlocate, mmc-build-system
 Description: Things I use for processing email.
