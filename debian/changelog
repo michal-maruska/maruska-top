@@ -1,3 +1,10 @@
+maruska-top (1.13) release; urgency=medium
+
+  * don't insist on google-chrome-stable
+  * maruska-top-debian: require mmc-build-system
+
+ -- Michal Maruska <mmaruska@gmail.com>  Sun, 27 Oct 2019 12:31:17 +0000
+
 maruska-top (1.12) release; urgency=medium
 
   * Add magit to maruska-top-developer
