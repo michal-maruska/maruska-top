@@ -43,7 +43,7 @@ Description: Things I use for development/work.
 
 Package: maruska-top-mail-server
 Architecture: all
-Depends: postfix, fetchmail, maildrop, mutt, courier-imap, bsd-mailx
+Depends: postfix, fetchmail, maildrop, mutt,dovecot,bsd-mailx
 Description: Things I use for processing email.
 
 
