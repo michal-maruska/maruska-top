@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: maruska-top-base
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, maruska-preference, maruska-misc, mmc-emacs, dircolors, mmc-emacs-config,mmc-sawfish, mmc-zsh,elinks, xplugin, fork-plugin, libfork, lsof,xdelta,human,mempeak,cowdancer,rlwrap,pbuilder,rxvt-beta,lightdm,chromium,git-core, gitk, devscripts, emacs-snapshot-xlib,man,strace,xserver-xorg-input-evdev,xauth
+Depends: ${shlibs:Depends}, ${misc:Depends}, maruska-preference, maruska-misc, mmc-emacs, dircolors, mmc-emacs-config,mmc-sawfish, mmc-zsh,elinks, xplugin, fork-plugin, libfork, lsof,xdelta,human,mempeak,cowdancer,rlwrap,pbuilder,rxvt-beta,lightdm,chromium,git-core, gitk, devscripts, emacs-snapshot-xlib,man,strace,xserver-xorg-input-evdev,xauth,zsh-syntax-highlighting
 Conflicts: exim4-base
 Recommends:
 Description: This should be enough to make maruska happy with the desktop.
@@ -17,7 +17,7 @@ Description: This should be enough to make maruska happy with the desktop.
 
 Package: maruska-top-server
 Architecture: all
-Depends: maruska-top-base, libapache2-mod-fastcgi | libapache2-mod-fcgid, kahua-apps, postgresql-9.5, libpq5
+Depends: maruska-top-base, libapache2-mod-fastcgi | libapache2-mod-fcgid, kahua-apps, postgresql-9.5, libpq5,reprepro
 Recommends:
 Description: This should be enough to make maruska happy with the Server.
  A container package -- pulling in dependencies which I am accustomed to.
@@ -33,12 +33,12 @@ Description: This should be enough to make maruska PG databse work.
 
 Package: maruska-top-desktop
 Architecture: all
-Depends: sispmctl, unclutter, powertop, trayer, lshw, maruska-top-base,x11-xserver-utils,xinput,gconf2,gnome-panel,claws-mail,claws-mail-newmail-plugin,claws-mail-multi-notifier,network-manager-gnome,ntp,google-chrome-stable|google-chrome-unstable
+Depends: sispmctl, unclutter, powertop, trayer, lshw, maruska-top-base,x11-xserver-utils,xinput,gconf2,gnome-panel,claws-mail,claws-mail-newmail-plugin,claws-mail-multi-notifier,network-manager-gnome,ntp,google-chrome-stable|google-chrome-unstable,mplayer,evince,pavucontrol, pulseaudio,mpg123,pulsemixer 
 Description: Things I need on GUI workstation.
 
 Package: maruska-top-developer
 Architecture: all
-Depends: maruska-top-desktop, mmc-emacs-devel, emacs-goodies-el, debian-el,magit
+Depends: maruska-top-desktop, mmc-emacs-devel, emacs-goodies-el, debian-el, magit, zsh-doc
 Description: Things I use for development/work.
 
 Package: maruska-top-mail-server
@@ -51,3 +51,9 @@ Package: maruska-top-debian
 Architecture: all
 Depends: equivs, packaging-dev,dlocate, mmc-build-system
 Description: Things I use for processing email.
+
+
+Package: maruska-top-techno
+Architecture: all
+Depends: usbutils,
+Description: Things I need for investigation hw.
