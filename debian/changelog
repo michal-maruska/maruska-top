@@ -1,3 +1,12 @@
+maruska-top (1.14) release; urgency=medium
+
+  * Add tons of dependencies + maruska-top-techno
+  * replace courier with dovecot
+  * developer: add python-mode, elpa-paredit
+  * add description
+
+ -- Michal Maruska <mmaruska@gmail.com>  Thu, 06 Feb 2020 23:09:53 +0100
+
 maruska-top (1.13) release; urgency=medium
 
   * don't insist on google-chrome-stable
