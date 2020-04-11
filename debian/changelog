@@ -1,3 +1,11 @@
+maruska-top (1.15) release; urgency=medium
+
+  * server: mod-languagesubdomain & new pg
+  * developer: git-hierarchy,gdb,colortail
+  * gnome-panel -> mate-panel
+
+ -- Michal Maruska <mmaruska@gmail.com>  Sat, 11 Apr 2020 19:05:33 +0200
+
 maruska-top (1.14) release; urgency=medium
 
   * Add tons of dependencies + maruska-top-techno
