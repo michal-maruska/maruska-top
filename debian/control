@@ -57,3 +57,9 @@ Package: maruska-top-techno
 Architecture: all
 Depends: usbutils, pciutils
 Description: Things I need for hardware investigations.
+
+
+Package: maruska-top-corporate
+Architecture: all
+Depends: maruska-top-desktop, telegram-desktop, slack-desktop, teams-insiders
+Description: Things I need on GUI workstation.
