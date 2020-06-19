@@ -49,7 +49,7 @@ Description: Things I use for processing email.
 
 Package: maruska-top-debian
 Architecture: all
-Depends: equivs, packaging-dev,dlocate, mmc-build-system,pbuilder,cowdancer,devscripts
+Depends: equivs, packaging-dev,dlocate, mmc-build-system,pbuilder,cowdancer,devscripts,libdistro-info-perl
 Description: Things I use for processing email.
 
 
