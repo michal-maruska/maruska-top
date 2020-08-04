@@ -1,3 +1,10 @@
+maruska-top (1.17) release; urgency=medium
+
+  * maruska-top-desktop: drop ntp (in favor of systemd-timesyncd)
+  * techno: add pciutils
+
+ -- Michal Maruska <mmaruska@gmail.com>  Tue, 04 Aug 2020 22:44:00 +0200
+
 maruska-top (1.16.1) release; urgency=medium
 
   * Move more debian tools into *-top-debian
