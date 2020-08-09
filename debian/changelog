@@ -1,3 +1,13 @@
+maruska-top (1.18) release; urgency=medium
+
+  * New maruska-top-corporate: for commerical sw (at work)
+  * maruska-top-debian: amend
+  * maruska-top-desktop: + gnome-settings-daemon
+  * maruska-top-developer: + manpages
+  * +gnome-keyring
+
+ -- Michal Maruska <mmaruska@gmail.com>  Sun, 09 Aug 2020 22:36:10 +0200
+
 maruska-top (1.17) release; urgency=medium
 
   * maruska-top-desktop: drop ntp (in favor of systemd-timesyncd)
