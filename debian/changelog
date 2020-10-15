@@ -1,3 +1,11 @@
+maruska-top (1.19) release; urgency=medium
+
+  * techno: +ddcutil
+  * maruska-top-developer: gawk-docs
+  * desktop: +firefox
+
+ -- Michal Maruska <mmaruska@gmail.com>  Thu, 15 Oct 2020 12:44:53 +0200
+
 maruska-top (1.18) release; urgency=medium
 
   * New maruska-top-corporate: for commerical sw (at work)
