@@ -55,7 +55,7 @@ Description: Things I use for processing email.
 
 Package: maruska-top-techno
 Architecture: all
-Depends: usbutils, pciutils
+Depends: usbutils, pciutils, ddcutil
 Description: Things I need for hardware investigations.
 
 
