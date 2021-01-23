@@ -41,6 +41,11 @@ Architecture: all
 Depends: maruska-top-desktop, mmc-emacs-devel, emacs-goodies-el, debian-el, magit, zsh-doc, python-mode, elpa-paredit,git-hierarchy,gdb,colortail,manpages,manpages-dev,gawk-doc
 Description: Things I use for development/work. Android gadgets
 
+Package: maruska-top-android
+Architecture: all
+Depends: maruska-top-developer, adb,fastboot,pidcat
+Description: Things I use for development with Android gadgets
+
 Package: maruska-top-mail-server
 Architecture: all
 Depends: postfix, fetchmail, maildrop, mutt,dovecot,bsd-mailx
