@@ -43,7 +43,7 @@ Description: Things I use for development/work. Android gadgets
 
 Package: maruska-top-android
 Architecture: all
-Depends: maruska-top-developer, adb,fastboot,pidcat
+Depends: maruska-top-developer, adb,fastboot,pidcat,heimdall-flash
 Description: Things I use for development with Android gadgets
 
 Package: maruska-top-mail-server
