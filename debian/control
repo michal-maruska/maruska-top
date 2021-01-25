@@ -68,3 +68,8 @@ Package: maruska-top-corporate
 Architecture: all
 Depends: maruska-top-desktop, telegram-desktop, slack-desktop, teams-insiders
 Description: Things I need on GUI workstation.
+
+Package: maruska-top-podman
+Architecture: all
+Depends: runc,fuse-overlayfs,podman,slirp4netns,uidmap
+Description: Things I need on GUI workstation.
