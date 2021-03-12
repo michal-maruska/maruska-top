@@ -1,3 +1,18 @@
+maruska-top (1.20) release; urgency=medium
+
+  [ Michal Maruska ]
+  * new maruska-top-android
+  * doc: +gcc-doc
+  * android +heimdall-flash
+  * maruska-top-podman new
+  * top-developer: more docs
+  * android: tools to create boot partition
+  * techno wake-on-lan
+  * (desktop) Split off dependency on Google-chrome to -commercial, add xkb-reset
+  * base: add plocate, not mlocate
+
+ --  <mmaruska@gmail.com>  Fri, 12 Mar 2021 14:34:54 +0100
+
 maruska-top (1.19) release; urgency=medium
 
   * techno: +ddcutil
