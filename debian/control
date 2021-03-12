@@ -33,7 +33,7 @@ Description: This should be enough to make maruska PG databse work.
 
 Package: maruska-top-desktop
 Architecture: all
-Depends: sispmctl, unclutter, powertop, trayer, lshw, maruska-top-base,x11-xserver-utils,xinput,gconf2,mate-panel,claws-mail,claws-mail-newmail-plugin,claws-mail-multi-notifier,network-manager-gnome,firefox,google-chrome-stable|google-chrome-unstable,mplayer,evince,pavucontrol, pulseaudio,mpg123,pulsemixer,gnome-settings-daemon,gnome-keyring
+Depends: sispmctl, unclutter, powertop, trayer, lshw, maruska-top-base,x11-xserver-utils,xinput,gconf2,mate-panel,claws-mail,claws-mail-newmail-plugin,claws-mail-multi-notifier,network-manager-gnome,firefox,mplayer,evince,pavucontrol, pulseaudio,mpg123,pulsemixer,gnome-settings-daemon,gnome-keyring,xkb-reset
 Description: Things I need on GUI workstation.
 
 Package: maruska-top-developer
@@ -73,3 +73,8 @@ Package: maruska-top-podman
 Architecture: all
 Depends: runc,fuse-overlayfs,podman,slirp4netns,uidmap
 Description: Things I need on GUI workstation.
+
+Package: maruska-top-commercial
+Architecture: all
+Depends: google-chrome-stable|google-chrome-unstable
+Description: Commercial sw from external repositories
