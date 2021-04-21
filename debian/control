@@ -78,3 +78,11 @@ Package: maruska-top-commercial
 Architecture: all
 Depends: google-chrome-stable|google-chrome-unstable
 Description: Commercial sw from external repositories
+
+
+Package: maruska-top-scheme
+Architecture: all
+Depends: gauche, gauche-mmc-apps, chezscheme
+Description: My favourite scheme environments
+
+
