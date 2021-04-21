@@ -1,3 +1,13 @@
+maruska-top (1.21) release; urgency=medium
+
+  [ Michal Maruska ]
+  * sawfish needs rep -- for now work-around!
+  * Add gcc (hence binutils [strigns]) to developer
+  * Start maruska-top-scheme
+  * Start maruska-top-work
+
+ --  <mmaruska@gmail.com>  Wed, 21 Apr 2021 11:22:06 +0200
+
 maruska-top (1.20) release; urgency=medium
 
   [ Michal Maruska ]
