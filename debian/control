@@ -43,7 +43,7 @@ Description: Things I use for development/work. Android gadgets
 
 Package: maruska-top-work
 Architecture: all
-Depends: maruska-top-desktop, openvpn
+Depends: maruska-top-desktop, openvpn, dnsmasq
 Description: Things I use for work from home.
 
 Package: maruska-top-android
