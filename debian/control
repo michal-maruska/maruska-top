@@ -38,7 +38,7 @@ Description: Things I need on GUI workstation.
 
 Package: maruska-top-developer
 Architecture: all
-Depends: maruska-top-desktop, mmc-emacs-devel, emacs-goodies-el, debian-el, magit, zsh-doc, python-mode, elpa-paredit,git-hierarchy,gdb,colortail,manpages,manpages-dev,gawk-doc,gcc-doc,cmake-doc,cmake,gcc
+Depends: maruska-top-desktop, mmc-emacs-devel, emacs-goodies-el, debian-el, magit, zsh-doc, python-mode, elpa-paredit,git-hierarchy,gdb,colortail,manpages,manpages-dev,gawk-doc,gcc-doc,cmake-doc,cmake,gcc, make-doc
 Description: Things I use for development/work. Android gadgets
 
 Package: maruska-top-work
