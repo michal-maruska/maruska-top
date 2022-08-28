@@ -1,3 +1,12 @@
+maruska-top (1.22) release; urgency=medium
+
+  * maruska-top-techno: add bluetooth (a2dp)
+  * maruska-top-desktop: +gst123 to play oggs
+  * my openvpn setup now requires dnsmasq
+  * more doc for developer (make)
+
+ -- Michal Maruska <mmaruska@gmail.com>  Sun, 28 Aug 2022 12:59:00 +0200
+
 maruska-top (1.21) release; urgency=medium
 
   [ Michal Maruska ]
