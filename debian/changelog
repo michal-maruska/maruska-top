@@ -1,3 +1,13 @@
+maruska-top (1.23) release; urgency=medium
+
+  * add things I normaly require by maruska-preference
+  * clean-up
+  * relax top-base: for Ubuntu 20.04 just recommend & move chromium, emacs-snapshot-xlib
+  * maruska-top-desktop: recommend chromium
+  * base: cron & nocache
+
+ -- Michal Maruska <mmaruska@gmail.com>  Wed, 21 Dec 2022 14:56:00 +0100
+
 maruska-top (1.22) release; urgency=medium
 
   * maruska-top-techno: add bluetooth (a2dp)
