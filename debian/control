@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: maruska-top-base
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, maruska-preference, maruska-misc, mmc-emacs, dircolors, mmc-emacs-config,mmc-sawfish, mmc-zsh,elinks, xplugin, fork-plugin, libfork, lsof,xdelta,human,mempeak,rlwrap,rxvt-beta,lightdm,git-core, gitk, emacs,man,strace,xserver-xorg-input-evdev,xauth,zsh-syntax-highlighting,rep,highlight,python3-docutils,nocache,cron
+Depends: ${shlibs:Depends}, ${misc:Depends}, maruska-preference, maruska-misc, mmc-emacs, dircolors, mmc-emacs-config,mmc-sawfish, mmc-zsh,elinks, xplugin, fork-plugin, libfork, lsof,xdelta,human,mempeak,rlwrap,rxvt-beta,lightdm,git-core, gitk, emacs,man,strace,xauth,zsh-syntax-highlighting,rep,highlight,python3-docutils,nocache,cron,xserver-xorg-input-evdev | xserver-xorg-input-libinput
 Conflicts: exim4-base
 Recommends: plocate
 Description: This should be enough to make maruska happy with the desktop.
