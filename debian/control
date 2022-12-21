@@ -16,7 +16,6 @@ Description: This should be enough to make maruska happy with the desktop.
 Package: maruska-top-server
 Architecture: all
 Depends: maruska-top-base, libapache2-mod-fastcgi | libapache2-mod-fcgid,postgresql-12,libpq5, reprepro, mod-languagesubdomain
-Recommends:
 Description: This should be enough to make maruska happy with the Server.
  A container package -- pulling in dependencies which I am accustomed to.
 
@@ -24,7 +23,6 @@ Description: This should be enough to make maruska happy with the Server.
 Package: maruska-top-pg
 Architecture: all
 Depends: pg-natural-sex, char-in-set, pg-human, thumbsize, sadd
-Recommends:
 Description: This should be enough to make maruska PG databse work.
  A container package -- pulling in dependencies for database work.
 
@@ -33,7 +31,7 @@ Package: maruska-top-desktop
 Architecture: all
 Depends: unclutter, powertop, lshw, maruska-top-base,x11-xserver-utils,xinput,gconf2,mate-panel,claws-mail,claws-mail-newmail-plugin,claws-mail-multi-notifier,network-manager-gnome,firefox,mplayer,evince,pavucontrol, pulseaudio,mpg123,pulsemixer,gnome-settings-daemon,gnome-keyring,xkb-reset,gst123
 Description: Things I need on GUI workstation.
-Recommends: chromium
+Recommends: chromium, chromium-browser
 
 Package: maruska-top-developer
 Architecture: all
