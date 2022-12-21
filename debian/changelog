@@ -1,3 +1,10 @@
+maruska-top (1.24) release; urgency=medium
+
+  * bump dh to 11
+  * Support xserver-xorg-input-libinput on ubuntu
+
+ -- Michal Maruska <mmaruska@gmail.com>  Wed, 21 Dec 2022 15:02:43 +0100
+
 maruska-top (1.23) release; urgency=medium
 
   * add things I normaly require by maruska-preference
