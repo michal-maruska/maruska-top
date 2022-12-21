@@ -33,6 +33,7 @@ Package: maruska-top-desktop
 Architecture: all
 Depends: sispmctl, unclutter, powertop, trayer, lshw, maruska-top-base,x11-xserver-utils,xinput,gconf2,mate-panel,claws-mail,claws-mail-newmail-plugin,claws-mail-multi-notifier,network-manager-gnome,firefox,mplayer,evince,pavucontrol, pulseaudio,mpg123,pulsemixer,gnome-settings-daemon,gnome-keyring,xkb-reset,gst123
 Description: Things I need on GUI workstation.
+Recommends: chromium
 
 Package: maruska-top-developer
 Architecture: all
