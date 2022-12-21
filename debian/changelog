@@ -1,3 +1,10 @@
+maruska-top (1.26) release; urgency=medium
+
+  * remove trayer
+  * drop empty Recommends, recommend chromium-browser for Ubuntu
+
+ -- Michal Maruska <mmaruska@gmail.com>  Wed, 21 Dec 2022 16:45:29 +0100
+
 maruska-top (1.25) release; urgency=medium
 
   * transfer sispmctl to hw
