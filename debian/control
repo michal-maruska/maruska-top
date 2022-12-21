@@ -2,7 +2,7 @@ Source: maruska-top
 Section: shells
 Priority: extra
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Build-Depends: debhelper(>=7)
+Build-Depends: debhelper(>=11)
 Standards-Version: 3.7.2
 
 Package: maruska-top-base
