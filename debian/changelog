@@ -1,3 +1,11 @@
+maruska-top (1.27) release; urgency=medium
+
+  [ Michal Maruska ]
+  * add fwupd
+  * move telegram-desktop out of corporate
+
+ --  <mmaruska@gmail.com>  Sat, 08 Jul 2023 23:54:13 +0200
+
 maruska-top (1.26) release; urgency=medium
 
   * remove trayer
