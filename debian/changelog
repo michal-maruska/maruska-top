@@ -1,3 +1,11 @@
+maruska-top (1.28) release; urgency=medium
+
+  [ Michal Maruska ]
+  * maruska-top-debian: drop pbuilder,cowdancer in favor of debspawn
+  * maruska-top-desktop: drop gconf2
+
+ --  <mmaruska@gmail.com>  Tue, 22 Aug 2023 19:12:54 +0200
+
 maruska-top (1.27) release; urgency=medium
 
   [ Michal Maruska ]
