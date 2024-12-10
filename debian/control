@@ -15,7 +15,7 @@ Description: This should be enough to make maruska happy with the desktop.
 
 Package: maruska-top-server
 Architecture: all
-Depends: maruska-top-base, libapache2-mod-fastcgi | libapache2-mod-fcgid,postgresql-12,libpq5, reprepro, mod-languagesubdomain,easy-rsa
+Depends: maruska-top-base, libapache2-mod-fastcgi | libapache2-mod-fcgid,postgresql-17,libpq5, reprepro, mod-languagesubdomain,easy-rsa
 Description: This should be enough to make maruska happy with the Server.
  A container package -- pulling in dependencies which I am accustomed to.
 
