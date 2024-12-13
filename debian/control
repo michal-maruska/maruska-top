@@ -7,11 +7,21 @@ Standards-Version: 3.7.2
 
 Package: maruska-top-base
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, maruska-preference, maruska-misc, mmc-emacs, dircolors, mmc-emacs-config,mmc-sawfish, mmc-zsh,elinks, xplugin, fork-plugin, libfork, lsof,xdelta,human,mempeak,rlwrap,rxvt-beta,lightdm,git-core, gitk, emacs,man,strace,xauth,zsh-syntax-highlighting,rep,highlight,python3-docutils,nocache,cron,xserver-xorg-input-evdev | xserver-xorg-input-libinput,fwupd,psmisc
+Depends: ${shlibs:Depends}, ${misc:Depends}, maruska-preference, maruska-misc, mmc-emacs, dircolors, mmc-emacs-config, mmc-zsh,elinks, lsof,xdelta,human,mempeak,rlwrap,git-core, gitk, emacs,man,strace,zsh-syntax-highlighting,highlight,python3-docutils,nocache,cron,fwupd,psmisc
 Conflicts: exim4-base
 Recommends: plocate
 Description: This should be enough to make maruska happy with the desktop.
  A container package -- pulling in dependencies which I am accustomed to.
+
+
+Package: maruska-base-graphics
+Architecture: all
+Depends: maruska-top-base, xplugin, fork-plugin, libfork, rxvt-beta,lightdm,xauth,xserver-xorg-input-evdev | xserver-xorg-input-libinput,mmc-sawfish,rep,xkb-reset
+Conflicts: exim4-base
+Recommends: plocate
+Description: This should be enough to make maruska happy with the desktop.
+ A container package -- pulling in dependencies which I am accustomed to.
+
 
 Package: maruska-top-server
 Architecture: all
@@ -29,7 +39,7 @@ Description: This should be enough to make maruska PG databse work.
 
 Package: maruska-top-desktop
 Architecture: all
-Depends: unclutter, powertop, lshw, maruska-top-base,x11-xserver-utils,xinput,mate-panel,claws-mail,claws-mail-newmail-plugin,claws-mail-multi-notifier,network-manager-gnome,firefox,mplayer,evince,pavucontrol, pulseaudio,mpg123,pulsemixer,gnome-settings-daemon,gnome-keyring,xkb-reset,gst123
+Depends: unclutter, powertop, lshw, maruska-top-base,maruska-base-graphics,x11-xserver-utils,xinput,mate-panel,claws-mail,claws-mail-newmail-plugin,claws-mail-multi-notifier,network-manager-gnome,firefox,mplayer,evince,pavucontrol, pulseaudio,mpg123,pulsemixer,gnome-settings-daemon,gnome-keyring,gst123
 Description: Things I need on GUI workstation.
 Recommends: chromium, chromium-browser
 
