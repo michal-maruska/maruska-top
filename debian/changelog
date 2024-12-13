@@ -1,3 +1,13 @@
+maruska-top (1.31) release; urgency=medium
+
+  * maruska-top-server: add easy-rsa
+  * maruska-top-base: add psmisc
+  * maruska-top-network: new
+  * postgresql 12 not available, use 17
+  * split maruska-top-base & maruska-base-graphics
+
+ -- Michal Maruska <mmaruska@gmail.com>  Fri, 13 Dec 2024 15:34:05 +0100
+
 maruska-top (1.30) release; urgency=medium
 
   * drop telegram -- dependency issue
