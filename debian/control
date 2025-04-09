@@ -7,7 +7,26 @@ Standards-Version: 3.7.2
 
 Package: maruska-top-base
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, maruska-preference, maruska-misc, mmc-emacs, dircolors, mmc-emacs-config, mmc-zsh,elinks, lsof,xdelta,human,mempeak,git-core, gitk, emacs,man,strace,zsh-syntax-highlighting,highlight,python3-docutils,nocache,cron,fwupd,psmisc
+Depends: ${shlibs:Depends}, ${misc:Depends},
+         maruska-preference,
+         maruska-misc,
+         emacs,
+         mmc-emacs,
+         dircolors,
+         mmc-emacs-config,
+         mmc-zsh,
+         elinks,
+         lsof, xdelta, human, mempeak,
+         git-core, gitk,
+         man,
+         strace,
+         zsh-syntax-highlighting,
+         highlight,
+         python3-docutils,
+         nocache,
+         cron,
+         fwupd,
+         psmisc
 Conflicts: exim4-base
 Recommends: plocate
 Description: This should be enough to make maruska happy with the desktop.
@@ -45,7 +64,23 @@ Recommends: chromium, chromium-browser
 
 Package: maruska-top-developer
 Architecture: all
-Depends: maruska-top-desktop, mmc-emacs-devel, emacs-goodies-el, elpa-debian-el, elpa-magit, zsh-doc, elpa-paredit,git-hierarchy,gdb,colortail,manpages,manpages-dev,gawk-doc,gcc-doc,cmake-doc,cmake,gcc,gh
+Depends: maruska-top-desktop,
+         mmc-emacs-devel,
+         emacs-goodies-el,
+         elpa-debian-el,
+         elpa-magit,
+         zsh-doc,
+         elpa-paredit,
+         git-hierarchy,
+         gdb,
+         colortail,
+         manpages,
+         manpages-dev,
+         gawk-doc,
+         gcc-doc,
+         cmake-doc,
+         cmake, ninja-build,
+         gcc,gh
 Description: Things I use for development/work. Android gadgets
 
 
