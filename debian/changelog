@@ -1,3 +1,14 @@
+maruska-top (1.32) release; urgency=medium
+
+  * maruska-top-debian: correct description
+  * instal rlwrap only for scheme
+  * migrate to elpa-debian-el
+  * maruska-top-developer: fix magit pkg
+  * maruska-top-techno: add cheese
+  * maruska-top-desktop: add mate-themes
+
+ -- Michal Maruska <mmaruska@gmail.com>  Wed, 09 Apr 2025 11:44:01 +0200
+
 maruska-top (1.31) release; urgency=medium
 
   * maruska-top-server: add easy-rsa
