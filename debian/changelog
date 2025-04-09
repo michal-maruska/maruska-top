@@ -1,3 +1,9 @@
+maruska-top (1.33) release; urgency=medium
+
+  * developer: add gh github cli tool
+
+ -- Michal Maruska <mmaruska@gmail.com>  Wed, 09 Apr 2025 12:49:53 +0200
+
 maruska-top (1.32) release; urgency=medium
 
   * maruska-top-debian: correct description
