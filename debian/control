@@ -78,7 +78,7 @@ Description: Things I need to produce debian packages
 
 Package: maruska-top-techno
 Architecture: all
-Depends: usbutils, pciutils, ddcutil,wakeonlan,  bluez-firmware, pulseaudio-module-bluetooth, firmware-iwlwifi,firmware-realtek,brightnessctl,acpi-support-base,acpi-support,acpi-fakekey,sispmctl
+Depends: usbutils, pciutils, ddcutil, wakeonlan, bluez-firmware, pulseaudio-module-bluetooth, firmware-iwlwifi,firmware-realtek,brightnessctl,acpi-support-base,acpi-support,acpi-fakekey,sispmctl,cheese
 Description: Things I need for hardware investigations.
 
 Package: maruska-top-corporate
