@@ -91,10 +91,12 @@ Depends: maruska-top-desktop,
          manpages,
          manpages-dev,
          gawk-doc,
-         gcc-doc,
-         cmake-doc,
-         cmake, ninja-build,
-         gcc,gh
+         gcc, gcc-doc,
+         cmake, cmake-doc,
+         ninja-build, pkg-config,
+         googletest, libgtest-dev, google-mock,
+         gh,
+         clangd
 Description: Things I use for development/work. Android gadgets
 
 
