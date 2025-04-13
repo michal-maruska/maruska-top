@@ -58,7 +58,21 @@ Description: This should be enough to make maruska PG databse work.
 
 Package: maruska-top-desktop
 Architecture: all
-Depends: unclutter, powertop, lshw, maruska-top-base,maruska-base-graphics,x11-xserver-utils,xinput,mate-panel,mate-themes,claws-mail,claws-mail-newmail-plugin,claws-mail-multi-notifier,network-manager-gnome,firefox,mplayer,evince,pavucontrol, pulseaudio,mpg123,pulsemixer,gnome-settings-daemon,gnome-keyring,gst123
+Depends: unclutter,
+         powertop, lshw,
+         maruska-top-base,
+         maruska-base-graphics,
+         x11-xserver-utils,
+         xinput,
+         mate-panel,
+         mate-themes,
+         gnome-settings-daemon,gnome-keyring,
+         claws-mail,claws-mail-newmail-plugin,claws-mail-multi-notifier,
+         network-manager-gnome,
+         firefox,mplayer,
+         evince,
+         pavucontrol, pulseaudio,mpg123,pulsemixer,gst123,
+         gthumb
 Description: Things I need on GUI workstation.
 Recommends: chromium, chromium-browser
 
