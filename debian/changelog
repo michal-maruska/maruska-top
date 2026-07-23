@@ -1,3 +1,13 @@
+maruska-top (1.35) sid; urgency=medium
+
+  * add wezterm
+  * ci: use the shared workflow
+  * ci: update to organization
+  * maruska-top-debian: don't depend on packaging-dev -- no in sid anymore
+  * ci: build for "unstable/" tags, arm64, for specific ref
+
+ -- Michal Maruska <mmaruska@gmail.com>  Fri, 24 Jul 2026 00:48:40 +0200
+
 maruska-top (1.34) release; urgency=medium
 
   * developer: ninja
