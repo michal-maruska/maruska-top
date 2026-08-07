@@ -35,7 +35,7 @@ Description: This should be enough to make maruska happy with the desktop.
 
 Package: maruska-base-graphics
 Architecture: all
-Depends: maruska-top-base, xplugin, fork-plugin, libfork, rxvt-beta,wezterm,lightdm,xauth,xserver-xorg-input-evdev | xserver-xorg-input-libinput,mmc-sawfish,rep,xkb-reset
+Depends: maruska-top-base, xplugin, fork-plugin, libfork,lightdm,xauth,xserver-xorg-input-evdev | xserver-xorg-input-libinput,mmc-sawfish,rep,xkb-reset,wezterm
 Conflicts: exim4-base
 Recommends: plocate
 Description: This should be enough to make maruska happy with the desktop.
