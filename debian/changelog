@@ -1,3 +1,11 @@
+maruska-top (1.36) sid; urgency=medium
+
+  * desktop: don't depend on network-manager-gnome
+  * new package: maruska-top-aosp-build
+  * maruska-base-graphics: wezterm, not rxvt
+
+ -- Michal Maruska <mmaruska@gmail.com>  Fri, 07 Aug 2026 12:46:19 +0200
+
 maruska-top (1.35) sid; urgency=medium
 
   * add wezterm
