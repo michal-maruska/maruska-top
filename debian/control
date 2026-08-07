@@ -115,6 +115,11 @@ Architecture: all
 Depends: maruska-top-developer, adb,fastboot,pidcat,heimdall-flash,mkbootimg,abootimg
 Description: Things I use for development with Android gadgets
 
+Package: maruska-top-aosp-build
+Architecture: all
+Depends: maruska-top-developer, adb,fastboot,pidcat,heimdall-flash,mkbootimg,abootimg
+Description: Things I use for development with Android gadgets
+
 Package: maruska-top-mail-server
 Architecture: all
 Depends: postfix, fetchmail, maildrop, mutt,dovecot,bsd-mailx
