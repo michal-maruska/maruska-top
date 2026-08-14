@@ -26,7 +26,6 @@ Depends: ${shlibs:Depends}, ${misc:Depends},
          cron,
          fwupd,
          psmisc
-Conflicts: exim4-base
 Recommends: plocate
 Description: This should be enough to make maruska happy with the desktop.
  A container package -- pulling in dependencies which I am accustomed to.
