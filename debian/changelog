@@ -1,3 +1,12 @@
+maruska-top (1.37) sid; urgency=medium
+
+  * maruska-top-debian: maruska-top-base should be dependency of more
+  * drop elinks & mempeak
+  * do I mind exim4-base ?
+  * ci: rename workflow, build only amd64
+
+ -- Michal Maruska <mmaruska@gmail.com>  Mon, 17 Aug 2026 18:06:24 +0200
+
 maruska-top (1.36) sid; urgency=medium
 
   * desktop: don't depend on network-manager-gnome
