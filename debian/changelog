@@ -1,3 +1,9 @@
+maruska-top (1.38) sid; urgency=medium
+
+  * maruska-top-developer: add conan-zsh-completion
+
+ -- Michal Maruska <mmaruska@gmail.com>  Thu, 22 Oct 2026 12:53:50 +0200
+
 maruska-top (1.37) sid; urgency=medium
 
   * maruska-top-debian: maruska-top-base should be dependency of more
